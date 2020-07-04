@@ -1,0 +1,34 @@
+#me:hover {
+    width: 30%;
+    box-shadow: 5px 5px 15px fuchsia
+}
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-3.MuiGrid-grid-lg-3:hover {
+	box-shadow: 2px 2px 15px #3f51b5;
+    transform: translateY(-5px);
+    background-color: #e5e5e5;
+}
+.skill:hover {
+	text-shadow: 3px 3px 6px grey;
+}
+li { list-style-type: none;
+	display: inline;
+	color: #003366;
+	font-size: 1.5em;
+    padding-bottom: 2px;
+    position: relative;
+ }
+
+ li.company {
+ 	font-size: xx-large;
+ 	display: block;
+ 	margin-bottom: 10px;
+ }
+ img.company_logo {
+ 	padding: 10px;
+ 	transform: translateY(30%);
+ }
+li.role {
+	display: block;
+	font-size: 1em;
+}
+
