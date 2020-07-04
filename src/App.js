@@ -35,7 +35,7 @@ class App extends React.Component {
           <Grid item xs={12}>
             <AppBar position="static">
         <Tabs aria-label="simple tabs example">
-        <Link to="/"><img src="/images/logo.png" style={{ height:'min-content', marginLeft:'20px', marginTop:'10px', boxShadow:'3px 3px 10px darkgrey'}} /></Link>
+        <Link to="/"><img src="./images/logo.png" style={{ height:'min-content', marginLeft:'20px', marginTop:'10px', boxShadow:'3px 3px 10px darkgrey'}} /></Link>
           <Link to="/Skills" style={{color:'white', textDecoration:'none', marginLeft:'20%'}}><Tab label="Skills" icon={<Build/>} className="nav-item" /></Link>
           <Link to="/Work" style={{color:'white', textDecoration:'none'}}><Tab label="Work Experience" icon={<CardTravel/>} className="nav-item" /></Link>
           <Link to="/Education" style={{color:'white', textDecoration:'none'}}><Tab label="Education" icon={<School/>} className="nav-item" /></Link>
